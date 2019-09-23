@@ -1,0 +1,8 @@
+{
+  "name": "custom-paging",
+  "version": "1.0.0",
+  "main": "custom-paging.js",
+  "license": "MIT",
+  "repository": "git@github.com:didyhu/wc-custom-paging.git",
+  "author": "didyhu <didyhu@gmail.com>"
+}

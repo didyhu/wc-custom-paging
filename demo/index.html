@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paging Demo</title>
+</head>
+
+<body>
+    <style>
+        #paging1 {
+            justify-content: center;
+        }
+
+        #paging2 {
+            justify-content: flex-start;
+        }
+
+        #paging3 {
+            justify-content: flex-end;
+        }
+
+        #paging3 .active {
+            color: red;
+        }
+
+        custom-paging [data-role=page] {
+            width: 20px;
+
+        }
+    </style>
+    <custom-paging id="paging1"></custom-paging>
+    <custom-paging id="paging2"></custom-paging>
+    <custom-paging id="paging3"></custom-paging>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
